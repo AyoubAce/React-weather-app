@@ -4,3 +4,5 @@
 - Clone repo
  - run `npm install` in root directory
  - `npm strart` 
+
+![screenshot](http://url/to/screenshot.png)
