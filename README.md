@@ -11,4 +11,4 @@ It's my first React app that displays current and 7 days forcast weather in any 
 ![screenshot](screenshot.png)
 
 #### REACTapp 
-this was my first react app which I coded in 2021
+ My first react app which I coded in 2021
