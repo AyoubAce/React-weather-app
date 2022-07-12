@@ -10,13 +10,9 @@ export const HourlyForcastChart = () => {
     let temps= items?.map(item => {return Math.round(item.temp)});
     //here it was giving time every 3 hours... without writing %3 !!!
     let time=items?.map((item,index)=>{
-        if(index%3===0){
-        return date(item.dt)
-    } 
+        return index%3===0 && date(item.dt) 
     })
     let times= time?.filter( (x,index)=>{return index%3===0}  )
-    console.log("times");
-  console.log(times);
    
     useEffect(() => {
         setItems(oneCall.hourly);
